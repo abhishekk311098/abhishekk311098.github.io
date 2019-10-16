@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width">
   <style>
     body {
+      background-image: url("1.jpg");
+      text-align: right;
       display: flex;
       height: 100vh;
       margin: 0;
@@ -24,18 +26,23 @@
     }
     .copy {
       position: fixed;
+      text-align: center;
       top: 10px;
       left: 50%;
       transform: translateX(-50%);
       font-size: 16px;
       color: rgba(0, 0, 0, 0.5);
-    }
+    }   
+    
   </style>
 </head>
 <body>
-  <div class="copy">Send your URL to a friend to start a video call</div>
+  <div class="copy"><h1 style="color: #fff;">Welcome to peer to peer <br>web Viedo app</video></h1></div>
   <video id="localVideo" autoplay muted></video>
   <video id="remoteVideo" autoplay></video>
+  
+  
+  
   <script src="script.js"></script>
 </body>
 </html>
